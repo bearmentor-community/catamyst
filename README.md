@@ -1,19 +1,25 @@
-# Catamyst
+<div align="center">
+  <a href="https://github.com/catamyst/catamyst">
+    <img src="assets/catamyst-logo.png" alt="Catamyst Logo" height="51" />
+  </a>
+</div>
+
+<h1>Catamyst</h1>
 
 The Catamyst main repository which contains the primary documentation and design. Catamyst is a place to learn & build website, apps, and software.
 
 Table of Contents:
 
-- [Catamyst](#catamyst)
-  - [Subrepos](#subrepos)
-  - [Quick Roadmap](#quick-roadmap)
-  - [Tech Stack](#tech-stack)
-    - [All](#all)
-    - [Web / Frontend](#web--frontend)
-    - [API / Backend](#api--backend)
-    - [All / Test](#all--test)
-    - [All / Other](#all--other)
-    - [Optional](#optional)
+- [Subrepos](#subrepos)
+- [Quick Roadmap](#quick-roadmap)
+- [Tech Stack](#tech-stack)
+  - [All](#all)
+  - [Web](#web)
+  - [Android](#android)
+  - [iOS](#ios)
+  - [API](#api)
+  - [Test](#test)
+  - [Other](#other)
 
 ---
 
