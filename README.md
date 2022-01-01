@@ -1,27 +1,48 @@
 # Catamyst
 
-The Catamyst main repository. Catamyst is a place to learn & build website, apps, and software.
+The Catamyst main repository which contains the primary documentation and design. Catamyst is a place to learn & build website, apps, and software.
 
-Contains the primary documentation and design.
+Table of Contents:
+
+- [Catamyst](#catamyst)
+  - [Subrepos](#subrepos)
+  - [Quick Roadmap](#quick-roadmap)
+  - [Tech Stack](#tech-stack)
+    - [All](#all)
+    - [Web / Frontend](#web--frontend)
+    - [API / Backend](#api--backend)
+    - [All / Test](#all--test)
+    - [All / Other](#all--other)
+    - [Optional](#optional)
 
 ---
 
 ## Subrepos
 
-There are subrepos:
+The whole group of subrepos:
 
+- [catamyst](https://github.com/catamyst/catamyst)
+  - The main repo
 - [catamyst-web](https://github.com/catamyst/catamyst-web)
   - The web app / frontend / client-side
 - [catamyst-api](https://github.com/catamyst/catamyst-api)
   - The API service / backend / server-side
+- [catamyst-docs](https://github.com/catamyst/catamyst-docs)
+  - The documentation
+- [.github](https://github.com/catamyst/.github)
+  - The GitHub organization profile
 
 ---
 
 ## Quick Roadmap
 
+Available in more details at [catamyst.com/roadmap](https://catamyst.com/roadmap) (Coming Soon).
+
 - Landing Pages
   - Home
   - About
+  - Roadmap
+  - Stack
   - Pricing
   - Help
 - Authentication/Authorization
@@ -50,3 +71,99 @@ There are subrepos:
 - Projects
 - Jobs
 - Forum
+
+---
+
+## Tech Stack
+
+Available in more details at [a.catamyst.com/stack](https://a.catamyst.com/stack) or [catamyst.com/stack](https://catamyst.com/stack) (Coming Soon).
+
+### All
+
+- **TypeScript**, including:
+  - TSX
+  - JSX
+  - JavaScript
+  - Node.js
+  - HTML
+  - CSS
+  - [The Web Platform](https://mdn.dev)
+- **Prettier** code formatter
+- **ESLint** code linter
+- **GitHub** code repository hosting
+- **Linear** issue tracking and management
+
+### Web
+
+- **React**
+  - UI library/framework
+- **Remix**
+  - **ESBuild** as bundler
+  - **Babel** as transpiler
+- Styling packages:
+  - **Stitches** for CSS-in-JS and themes
+  - **Radix UI** for accessible component
+- Data fetching options:
+  - Remix built-in loader and action with **fetch** or **Axios**
+  - **React Query**
+  - **urql**
+- Hosting options:
+  - **Cloudflare Pages**
+  - **Vercel**
+
+### Android
+
+- **React Native**
+- **Kotlin**
+
+### iOS
+
+- **React Native**
+- **Swift**
+
+### API
+
+- **Express**
+- **GraphQL**
+- **Prisma**
+- **Nexus GraphQL**
+- Database options:
+  - **PostgreSQL** hosted in **Supabase**
+  - **MySQL** hosted in **PlanetScale**
+
+### Test
+
+- Unit and Functional:
+  - **Jest**
+  - **React Testing Library**
+  - **Tomato**
+- End to End:
+  - **Cypress**
+
+### Other
+
+- Domain:
+  - **Cloudflare Registrar**
+- DNS:
+  - **Cloudflare DNS**
+- Short link:
+  - **Rebrandly**
+- Analytics options:
+  - **Splitbee**
+  - **Fathom**
+  - **Simple Analytics**
+- Error tracking options:
+  - **Sentry**
+  - **Replay**
+- Marketing email options:
+  - **Buttondown.email**
+  - **Revue**
+- Monitoring options:
+  - **Instatus**
+  - **UptimeRobot**
+- Transactional email options:
+  - **Sendgrid**
+  - **Amazon SES**
+  - **Postmark**
+- Containerization:
+  - **Docker**
